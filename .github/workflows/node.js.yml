@@ -13,7 +13,7 @@ jobs:
   build:
 
     # Run jobs os 2 differant OSs
-    runs-on: [ubuntu-latest, windows-2016]
+    runs-on: [ubuntu-latest]
 
     strategy:
       matrix:
